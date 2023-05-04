@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { toSvg } from 'html-to-image';
 import { Message, User } from '~~/types';
 
 
@@ -44,7 +43,7 @@ const isOpen = ref(false)
       </header>
 
 
-      <div class="messages p-4 overflow-y-scroll max-h-[80vh]">
+      <div class="messages p-4 overflow-y-scroll max-h-[80vh]" ref="ChatBubble">
         <ChatBubble
           v-for="message in messages"
           :key="message.id"
