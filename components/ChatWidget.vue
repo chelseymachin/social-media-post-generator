@@ -23,19 +23,19 @@ const messages = ref<Message[]>([
     createdAt: new Date(new Date().getTime() - 5 * 60000),
   },
   {
-    text: "**Great!** I'm building a cool chat app at Vue.js Forge 🔥",
+    text: "**Great!**",
     id: nanoid(),
     userId: "assistant",
     createdAt: new Date(new Date().getTime() - 4 * 60000),
   },
   {
-    text: "Very cool! I'm so jealous 😀",
+    text: "Very cool!",
     id: nanoid(),
     userId: "user",
     createdAt: new Date(new Date().getTime() - 2 * 60000),
   },
   {
-    text: "You can join me. Just visit the  [Vue.js Forge](https://vuejsforge.com/) website and sign-up. It's free!",
+    text: "I know, right?",
     id: nanoid(),
     userId: "assistant",
     createdAt: new Date(),
